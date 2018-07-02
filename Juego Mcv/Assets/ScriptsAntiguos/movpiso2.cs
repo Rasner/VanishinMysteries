@@ -21,7 +21,7 @@ public class movpiso2 : MonoBehaviour {
 
     IEnumerator cae()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(2);
         GetComponent<Rigidbody>().useGravity = true;
     }
 }

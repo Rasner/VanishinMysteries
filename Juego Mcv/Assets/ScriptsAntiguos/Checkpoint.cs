@@ -26,6 +26,7 @@ public class Checkpoint : MonoBehaviour {
 		if (plyr.gameObject.tag == "Player")
         {
             vida -= 1;
+            
             player.transform.position = checkpoint.position;
             //player.transform.rotation = checkpoint.rotation;
         }
