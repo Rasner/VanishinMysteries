@@ -28,7 +28,6 @@ public class camarita : MonoBehaviour
 
         if (gamecontroller.instance.zona == true)
         {
-            transform.parent = player;
             transform.position = Vector3.Lerp(transform.position, tpdwn.position, Time.deltaTime * speed);
             transform.rotation = Quaternion.Lerp(transform.rotation, tpdwn.rotation, Time.deltaTime * speed);
 
