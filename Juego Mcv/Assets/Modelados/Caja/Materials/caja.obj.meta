@@ -1,16 +1,17 @@
 fileFormatVersion: 2
-guid: 894083bdde5256e4cbf7a0523d7e8fdf
-timeCreated: 1530507027
+guid: ea25e008861ae0543b56250b24b22c69
+timeCreated: 1530517830
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: pCube1
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Box001
-    9500000: //RootNode
+    400002: pCube1
+    2300000: pCube1
+    3300000: pCube1
+    4300000: pCube1
   materials:
     importMaterials: 1
     materialName: 0
@@ -75,7 +76,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
