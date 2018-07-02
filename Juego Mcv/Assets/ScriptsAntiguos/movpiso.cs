@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class movpiso : MonoBehaviour {
 
-    public Rigidbody rb;
-
 	// Use this for initialization
 	void Start ()
     {
