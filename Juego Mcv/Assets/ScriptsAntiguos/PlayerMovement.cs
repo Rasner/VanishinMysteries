@@ -35,4 +35,20 @@ public class PlayerMovement : MonoBehaviour
     {
         transform.Translate(100 * transform.up * Time.deltaTime);
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.tag == "cchanger")
+        {
+            gamecontroller.instance.zona = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "cchanger")
+        {
+            gamecontroller.instance.zona = false;
+        }
+    }
 }
