@@ -1,0 +1,786 @@
+fileFormatVersion: 2
+guid: 5bd120055f92f8844a6caff9c17590df
+timeCreated: 1530469084
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Chest
+    100004: Head
+    100006: Head_end
+    100008: Hips
+    100010: Left ankle
+    100012: Left arm
+    100014: Left elbow
+    100016: Left knee
+    100018: Left leg
+    100020: Left shoulder
+    100022: Left toe
+    100024: Left wrist
+    100026: LFingerA1
+    100028: LFingerA2
+    100030: LFingerB1
+    100032: LFingerB2
+    100034: LFingerB3
+    100036: LFingerC1
+    100038: LFingerC2
+    100040: LFingerC3
+    100042: LFingerD1
+    100044: LFingerD2
+    100046: LFingerD3
+    100048: LFingerE1
+    100050: LFingerE2
+    100052: LFingerE3
+    100054: Neck
+    100056: //RootNode
+    100058: Player
+    100060: RFingerA1
+    100062: RFingerA2
+    100064: RFingerB1
+    100066: RFingerB2
+    100068: RFingerB3
+    100070: RFingerC1
+    100072: RFingerC2
+    100074: RFingerC3
+    100076: RFingerD1
+    100078: RFingerD2
+    100080: RFingerD3
+    100082: RFingerE1
+    100084: RFingerE2
+    100086: RFingerE3
+    100088: Right ankle
+    100090: Right arm
+    100092: Right elbow
+    100094: Right knee
+    100096: Right leg
+    100098: Right shoulder
+    100100: Right toe
+    100102: Right wrist
+    100104: Spine
+    400000: Armature
+    400002: Chest
+    400004: Head
+    400006: Head_end
+    400008: Hips
+    400010: Left ankle
+    400012: Left arm
+    400014: Left elbow
+    400016: Left knee
+    400018: Left leg
+    400020: Left shoulder
+    400022: Left toe
+    400024: Left wrist
+    400026: LFingerA1
+    400028: LFingerA2
+    400030: LFingerB1
+    400032: LFingerB2
+    400034: LFingerB3
+    400036: LFingerC1
+    400038: LFingerC2
+    400040: LFingerC3
+    400042: LFingerD1
+    400044: LFingerD2
+    400046: LFingerD3
+    400048: LFingerE1
+    400050: LFingerE2
+    400052: LFingerE3
+    400054: Neck
+    400056: //RootNode
+    400058: Player
+    400060: RFingerA1
+    400062: RFingerA2
+    400064: RFingerB1
+    400066: RFingerB2
+    400068: RFingerB3
+    400070: RFingerC1
+    400072: RFingerC2
+    400074: RFingerC3
+    400076: RFingerD1
+    400078: RFingerD2
+    400080: RFingerD3
+    400082: RFingerE1
+    400084: RFingerE2
+    400086: RFingerE3
+    400088: Right ankle
+    400090: Right arm
+    400092: Right elbow
+    400094: Right knee
+    400096: Right leg
+    400098: Right shoulder
+    400100: Right toe
+    400102: Right wrist
+    400104: Spine
+    4300000: Player
+    7400000: Take 001
+    7400002: Empujar
+    7400004: Saltar
+    7400006: Idle
+    9500000: //RootNode
+    13700000: Player
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Left leg
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Armature/Hips/Right leg
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Chest
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerA1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerA1/LFingerA2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1/LFingerB2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1/LFingerB2/LFingerB3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1/LFingerC2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1/LFingerC2/LFingerC3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1/LFingerD2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1/LFingerD2/LFingerD3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1/LFingerE2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1/LFingerE2/LFingerE3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerA1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerA1/RFingerA2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1/RFingerB2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1/RFingerB2/RFingerB3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1/RFingerC2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1/RFingerC2/RFingerC3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1/RFingerD2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1/RFingerD2/RFingerD3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1/RFingerE2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1/RFingerE2/RFingerE3
+        weight: 1
+      - path: Player
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Empujar
+      takeName: Take 001
+      firstFrame: 115
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Left leg
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Armature/Hips/Right leg
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Chest
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerA1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerA1/LFingerA2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1/LFingerB2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1/LFingerB2/LFingerB3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1/LFingerC2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1/LFingerC2/LFingerC3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1/LFingerD2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1/LFingerD2/LFingerD3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1/LFingerE2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1/LFingerE2/LFingerE3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerA1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerA1/RFingerA2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1/RFingerB2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1/RFingerB2/RFingerB3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1/RFingerC2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1/RFingerC2/RFingerC3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1/RFingerD2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1/RFingerD2/RFingerD3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1/RFingerE2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1/RFingerE2/RFingerE3
+        weight: 1
+      - path: Player
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Saltar
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 175
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Left leg
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Armature/Hips/Right leg
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Chest
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerA1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerA1/LFingerA2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1/LFingerB2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1/LFingerB2/LFingerB3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1/LFingerC2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1/LFingerC2/LFingerC3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1/LFingerD2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1/LFingerD2/LFingerD3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1/LFingerE2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1/LFingerE2/LFingerE3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerA1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerA1/RFingerA2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1/RFingerB2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1/RFingerB2/RFingerB3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1/RFingerC2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1/RFingerC2/RFingerC3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1/RFingerD2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1/RFingerD2/RFingerD3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1/RFingerE2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1/RFingerE2/RFingerE3
+        weight: 1
+      - path: Player
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Left leg
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee/Left ankle
+        weight: 1
+      - path: Armature/Hips/Left leg/Left knee/Left ankle/Left toe
+        weight: 1
+      - path: Armature/Hips/Right leg
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee/Right ankle
+        weight: 1
+      - path: Armature/Hips/Right leg/Right knee/Right ankle/Right toe
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Chest
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerA1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerA1/LFingerA2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1/LFingerB2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerB1/LFingerB2/LFingerB3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1/LFingerC2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerC1/LFingerC2/LFingerC3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1/LFingerD2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerD1/LFingerD2/LFingerD3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1/LFingerE2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Left shoulder/Left arm/Left elbow/Left wrist/LFingerE1/LFingerE2/LFingerE3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerA1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerA1/RFingerA2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1/RFingerB2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerB1/RFingerB2/RFingerB3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1/RFingerC2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerC1/RFingerC2/RFingerC3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1/RFingerD2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerD1/RFingerD2/RFingerD3
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1/RFingerE2
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Right shoulder/Right arm/Right elbow/Right
+          wrist/RFingerE1/RFingerE2/RFingerE3
+        weight: 1
+      - path: Player
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
